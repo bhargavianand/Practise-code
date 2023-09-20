@@ -13,6 +13,8 @@ public class Demo implements InterfaceDemo1,InterfaceDemo2{
 		// TODO Auto-generated method stub
 		
 	}
+
+	
 	
 	
 

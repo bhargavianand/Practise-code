@@ -18,7 +18,7 @@ public interface InterfaceDemo1 {
 
 	// private method
 
-	private void print3() {
+	static void print3() {
 		System.out.println("private print3() method");
 	}
 	// default method
