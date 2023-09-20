@@ -1,0 +1,34 @@
+Generics:
+
+Generics means parameterised types.
+
+The idea is to allow any of the types (Integer, String, etc and userdefined types)
+to be a parameter to Methods, classes, and interfaces.
+
+Using Generics its possible to create classes that work with different data types.
+
+
+Why Generics? 
+
+Generics provides type safety. Object class which is the super class of all other classes
+can refer to any object. So Generics was introduced to add type safety.
+
+Generic Method:
+
+Generic java method takes a parameter of any type.
+
+
+
+Type parameters in generics:
+
+T - Type
+
+E - Element
+
+K - Key
+
+N - Number
+
+V - Value
+
+ 
