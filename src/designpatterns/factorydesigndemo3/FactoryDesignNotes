@@ -1,0 +1,16 @@
+Factory Design Pattern:
+
+The factory design pattern is a commonly used software design pattern in object-oriented programming,
+ and it helps to create objects without specifying the exact class of object that will be created. 
+It provides a way to create objects in a more flexible and maintainable manner.
+
+Imagine you're at a pizza restaurant, and you want to order a pizza. You have a menu that lists different types of pizzas, like Margherita, Pepperoni, and Veggie. Now, instead of going into the kitchen and making the pizza yourself, you tell the chef what type of pizza you want, and the chef prepares it for you. In this scenario:
+
+You are like the client code that wants a pizza (object).
+The chef is like the factory, responsible for creating the pizza based on your order.
+The menu is like a set of predefined classes (pizza types) that the factory can make.
+In software development, the factory design pattern works similarly:
+The PizzaFactory is responsible for creating pizza objects based on the type specified by the client code.
+The client code requests pizzas from the factory without needing to know the details of how each pizza is made.
+The factory pattern makes it easier to add new pizza types in the future (by creating new Pizza subclasses) without modifying the client code.
+ It also encapsulates the object creation logic, improving code maintainability and flexibility.
