@@ -1,4 +1,4 @@
-package designpatterns.factorydesign;
+package designpatterns.factorydesigndemo1;
 
 public class Server extends Computers{
 
